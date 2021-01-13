@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import Login from './components/Login';
+import ExchangeRate from './components/ExchangeRate';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+      <div className="flex-container">
+        <Login/>
+        <ExchangeRate/>
+      </div>
+
+
+      <div className="vimeo-wrapper">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="https://public.ortex.com/wp-content/uploads/2020/09/iStock-1002667230-1.mp4" type="video/mp4"/>
+        </video>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,24 @@
+.exchange-rate {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.light {
+  font-weight: 200;
+}
+
+
+.rate-container {
+  margin-top: 15px;
+}
+
+.rate-text {
+  font-weight: bold;
+  font-size: 32px;
+}
