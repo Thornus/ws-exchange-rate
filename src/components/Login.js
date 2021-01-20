@@ -1,6 +1,6 @@
 import '../style/Login.css';
 
-const Login = () => {
+const Login = ({onResetPasswordClick}) => {
   return (
     <form action="/login" className="login">
       <label for="username">USERNAME</label><br/>
@@ -11,7 +11,7 @@ const Login = () => {
 
       <button type="submit">LOGIN</button>
 
-      <a onClick={() => prompt('lol', 'yeah')}>Reset Password</a>
+      <a onClick={onResetPasswordClick}>Reset Password</a>
     </form>
   );
 };

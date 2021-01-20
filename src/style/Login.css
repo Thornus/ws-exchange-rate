@@ -3,10 +3,13 @@
   flex-direction: column;
   flex: 2;
   font-weight: bold;
+  padding: 5%;
 }
 
 a {
+  margin-top: 15px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 input, button {

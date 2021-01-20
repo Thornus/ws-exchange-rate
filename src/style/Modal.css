@@ -1,0 +1,17 @@
+.reset-password-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(81, 81, 231);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+  font-size: 20px;
+  max-width: 70%;
+}

@@ -8,7 +8,12 @@
 
 .flex-container {
   display: flex;
-  padding: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
 .vimeo-wrapper {
